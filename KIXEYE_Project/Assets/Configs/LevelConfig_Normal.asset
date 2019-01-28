@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d498ec711b5f974e8c38b81b40dec11, type: 3}
+  m_Name: LevelConfig_Normal
+  m_EditorClassIdentifier: 
+  level:
+    ListObstacles:
+    - {fileID: 969587726592731604, guid: 0c73d911ae40ff84cbdc166d4801d8b6, type: 3}
+    - {fileID: 8762386176090679547, guid: 0db5f7ee4e643f042b595af5ff84f8ab, type: 3}
+    TimeInterval: 3.5
+    MovementSpeed: 300

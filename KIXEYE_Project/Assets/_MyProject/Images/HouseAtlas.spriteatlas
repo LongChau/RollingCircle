@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HouseAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+    - {fileID: 2800000, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+    - {fileID: 2800000, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+    totalSpriteSurfaceArea: 608305
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300002, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300000, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300006, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300004, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300010, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300008, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300014, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300012, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300018, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300016, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300020, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300022, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300024, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300026, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300030, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300028, guid: 2f3f93a968d08a94bbcc68fa21d149b1, type: 3}
+  - {fileID: 21300000, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300002, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300004, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300006, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300008, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300010, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300012, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300014, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300016, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300018, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300026, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300024, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300022, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300020, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300028, guid: d7df457a71aa7f74982e98e5981f278d, type: 3}
+  - {fileID: 21300000, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300002, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300004, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300006, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300008, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300010, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300012, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300014, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300016, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300018, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300022, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  - {fileID: 21300020, guid: 32365c7b89464c742a4b2450fce54a99, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Effect_1
+  - Effect_0
+  - Effect_3
+  - Effect_2
+  - Effect_5
+  - Effect_4
+  - Effect_7
+  - Effect_6
+  - Effect_9
+  - Effect_8
+  - Effect_10
+  - Effect_11
+  - Effect_12
+  - Effect_13
+  - Cloud_2
+  - Cloud_1
+  - 10102017_0
+  - 10102017_1
+  - 10102017_2
+  - 10102017_3
+  - 10102017_4
+  - 10102017_5
+  - 10102017_6
+  - 10102017_7
+  - 10102017_8
+  - 10102017_9
+  - 10102017_13
+  - 10102017_12
+  - 10102017_11
+  - 10102017_10
+  - 10102017_14
+  - Spritesheet_0
+  - Spritesheet_1
+  - Spritesheet_2
+  - Spritesheet_3
+  - Spritesheet_4
+  - Spritesheet_5
+  - Spritesheet_6
+  - Spritesheet_7
+  - Spritesheet_8
+  - Spritesheet_9
+  - Spritesheet_11
+  - Spritesheet_10
+  m_Tag: HouseAtlas
+  m_IsVariant: 0
