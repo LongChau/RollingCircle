@@ -12,3 +12,11 @@ However it contains full feature.
 Account with permission:
 Acc: gamejamvictor@gmail.com
 Password: GameJam_2018
+
+More about code in GameSparks:
+1. Configuration => Cloud code.
+2. My code in: 
+	Requests: RegistrationRequest, 
+	Responses: AuthenticationResponse,
+	System: GS_PLAYER_CONNECT,
+	Modules: GPacketType, GConst.
