@@ -25,7 +25,9 @@ namespace RollingCircle
 
         public void PlaySound(ESoundEffect soundEffect)
         {
-            m_audioClipDict[soundEffect].Play();
+            //@LONG 9:45 P.M 29/01 check for null exception
+            if (m_audioClipDict.ContainsKey(soundEffect))
+                m_audioClipDict[soundEffect].Play();
         }
     }
 }
