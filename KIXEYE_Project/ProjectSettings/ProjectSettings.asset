@@ -590,6 +590,7 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
+    1: RHSD
     7: ENABLE_LOG;RHSD
   platformArchitecture: {}
   scriptingBackend: {}
