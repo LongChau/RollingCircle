@@ -28,3 +28,10 @@ Note:
 3. In MenuScene find "[SoundManager]" object.
 4. Add audioSource as a child object.
 5. In SoundManager's inspector add new sound in dictionary with enum and sound effect object.
+
+**** Possible errors in SoundManager comes from mistaken setup as below:
+1. Add new sound enum in GameEnum/ESoundEffect and use it directly in code without add it in SoundManager.
+For example: ESoundEffect has new enum "Fire". Then use in code PlaySound(ESoundEffect.GunShot) without add it in sound dictionary.
+
+2. The key and Value in SoundManager are not mapped correctly. 
+For example: key [None] for value [GunShot] and then PlaySound(ESoundEffect.GunShot)
