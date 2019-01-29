@@ -20,3 +20,11 @@ More about code in GameSparks:
 	Responses: AuthenticationResponse,
 	System: GS_PLAYER_CONNECT,
 	Modules: GPacketType, GConst.
+	
+Note: 
+*** To add/modify sound effect:
+1. Go to ESoundEffect.
+2. Add an enum (sound name) to it.
+3. In MenuScene find "[SoundManager]" object.
+4. Add audioSource as a child object.
+5. In SoundManager's inspector add new sound in dictionary with enum and sound effect object.
