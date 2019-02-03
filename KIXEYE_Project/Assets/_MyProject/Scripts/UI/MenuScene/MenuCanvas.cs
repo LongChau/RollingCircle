@@ -97,18 +97,24 @@ namespace RollingCircle
 
             SoundManager.Instance.PlaySound(ESoundEffect.BtnClicked);
 
-            //if (GameManager.Instance.IsInternetConnected())
-            //    NetworkManager.Instance.GSAuthenticate();
-
-            if (PlayerData.Instance.Player.Name.IsNOTNullOrEmpty())
+            // if there is internet then try to authenticate player
+            if (GameManager.Instance.IsInternetConnected())
             {
-                NetworkManager.Instance.GSAuthenticate(m_userName);
-                m_isStartClicked = true;
+                Log.Info("<color=red>Start online playing</color>");
+                // there is a name then authen with this name.
+                if (PlayerData.Instance.Player.Name.IsNOTNullOrEmpty())
+                {
+                    NetworkManager.Instance.GSAuthenticate(m_userName);
+                    m_isStartClicked = true;
+                }
+                else            // if player name is null then just load the scene.
+                    SceneManager.LoadScene((int)EScene.GameScene);
             }
+            // if cannot connect to internet then load the scene.
             else
             {
+                Log.Info("<color=red>Start offline playing</color>");
                 SceneManager.LoadScene((int)EScene.GameScene);
-                //DelayLoadScene();
             }
 
             this.PostEvent(EventID.OnStartGame);
