@@ -9,7 +9,7 @@ The server I use for this game is GameSparks. You can find more details about in
 GameSparks's server is not run in live-stage because I'm not contact to GameSparks yet, and the server is still in preview build.
 However it contains full feature.
 
-Account with permission:
+Account with read permission:
 Acc: gamejamvictor@gmail.com
 Password: GameJam_2018
 
